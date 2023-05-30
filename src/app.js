@@ -81,7 +81,7 @@ const grades = (grade) => {
     console.log("D+");
   } else if (grade >= 60) {
     console.log("D");
-  } else if (grade < 60) {
+  } else {
     console.log("F");
   }
 };
@@ -105,11 +105,11 @@ const leapYear = (year) => {
 
 console.log("==================loop==================");
 for (let i = 1; i <= 8; i++) {
-  let space = "";
+  let row = "";
   for (let j = 1; j <= i; j++) {
-    space += j + " ";
+    row += j + " ";
   }
-  console.log(space);
+  console.log(row);
 }
 
 console.log("==================Power==================");
@@ -148,4 +148,4 @@ VAT(100);
 isEven(11);
 grades(88);
 age(25);
-leapYear(2000);
+leapYear(1993);
